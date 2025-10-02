@@ -1,14 +1,15 @@
-
+// Storage inportant words in the next arrays
 const categories = ["Pirate", "Marine", "Bounty Hunter","Holy Knight"];
 const devilfruits = ["Sand", "Sun God","Dragon","Magma","Invisible Man", "Earthquake"];
 const races = ["Tontatta","Mink", "Buccaneer", "Lunarian", "Giant", "Fish-Man", "Human"];
 const intentions = ["Money","Power", "Fame", "End Corruption"," being the Greatest Swordsman","the One Piece","Revenge"]
 
-
+// Select an index randomly
 function selectRandomWord(margenArray) {
     return Math.floor(Math.random() * margenArray.length);
 }
 
+// Create the message randomly 
 function createMessage(){
     let race = races[selectRandomWord(races)];
     let category = categories[selectRandomWord(categories)];
@@ -20,5 +21,6 @@ function createMessage(){
     console.log(message);
 }
 
+// Outcome of our program with the random message
 console.log("Your character from the One Piece world is: \n")
 createMessage();
