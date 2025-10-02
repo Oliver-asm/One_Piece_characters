@@ -9,7 +9,7 @@ Every time you run the program, it will create a new **One Piece inspired charac
 - **Devil Fruit** (Sand, Sun God, Magma, etc.)  
 - **Intention** (Money, Power, Revenge, the One Piece, etc.)  
 
-The result is a unique character profile each time you execute the code.  
+The result is a unique character profile message each time you execute the code.  
 
 ---
 
